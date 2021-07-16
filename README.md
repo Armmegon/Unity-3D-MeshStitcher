@@ -1,2 +1,8 @@
 # Unity-3D-MeshStitcher
-A Script that allow you to stitch separated meshes and use one rig.
+This is basic script that allows you to attached separated body meshes into one whole body with all meshes using same rig.
+
+
+```c#
+//place all 
+public List<GameObject> limbs;
+```

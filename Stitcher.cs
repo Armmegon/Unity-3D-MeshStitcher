@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Stitcher : MonoBehaviour
 {
-    //Place here all body meshes as prefabs
-    public List<GameObject> limbs;
     //Place here the main mesh aka Head GameObject. Make sure that the rig on that GameObject is set to Humanoid.
     public GameObject objPlayer;
+    //Place here all body meshes as prefabs
+    public List<GameObject> limbs;
     
     // Start is called before the first frame update
     void Start()
